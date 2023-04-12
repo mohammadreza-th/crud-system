@@ -19,7 +19,7 @@ const App = () => {
     <div className="container">
       <div className="create-form flex flex-col items-center 	m-10">
         <input
-          className=" w-72 py-4 pl-2  bg-sky-50 mb-2"
+          className=" w-72 py-4 pl-2  bg-sky-50 mb-2 rounded"
           placeholder="First Name"
           id="firstName"
           onChange={(e) => {
@@ -27,7 +27,7 @@ const App = () => {
           }}
         />
         <input
-          className=" w-72 py-4 pl-2 bg-sky-50 mb-2"
+          className=" w-72 py-4 pl-2 bg-sky-50 mb-2 rounded"
           id="lastName"
           placeholder="Last Name"
           onChange={(e) => {

@@ -6,7 +6,7 @@ const hendleDelete = (event, deletedID) => {
   let table = row.parentElement.parentElement;
   row.remove();
   if (table.children[1].children.length < 1) {
-    table.remove();
+    table.parentElement.remove();
   }
   axios.delete(
     `https://64318147d4518cfb0e62f291.mockapi.io/contacts/${deletedID}`

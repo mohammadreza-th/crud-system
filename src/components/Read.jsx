@@ -24,8 +24,8 @@ const Read = () => {
 
   if (APIData.length !== 0) {
     return (
-      <div className="table__container  ">
-        <table className="border-t-2	pt-10">
+      <div className="table__container  border-t-2	pt-10">
+        <table >
           <thead>
             <tr>
               <td>
